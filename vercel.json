@@ -6,8 +6,8 @@
       "permanent": true
     },
     { 
-      "source": "/:path*",
-      "destination": "https://meettoday.space/:path*",
+      "source": "/post/:path(\\d{1,})",
+      "destination": "/news/:path*"
       "permanent": true
     }
   ]
